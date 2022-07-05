@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping
     public String get() {
-        return "CI/CD with Jenkins!!!";
+        return "CI/CD with Jenkins";
     }
 }
